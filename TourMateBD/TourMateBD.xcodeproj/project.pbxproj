@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8474E971EBDF23F006B4001 /* TourModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8474E961EBDF23F006B4001 /* TourModel.swift */; };
+		A8A67F241EBEB0A90093884F /* green.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8A67F231EBEB0A90093884F /* green.jpg */; };
+		A8A67F261EBEBB1A0093884F /* descriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A67F251EBEBB1A0093884F /* descriptionViewController.swift */; };
+		A8A67F311EBEDBE10093884F /* SonargaonSlide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8A67F281EBEDBE10093884F /* SonargaonSlide.jpg */; };
+		A8A67F321EBEDBE10093884F /* SonargaonSlide2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8A67F291EBEDBE10093884F /* SonargaonSlide2.jpg */; };
+		A8A67F331EBEDBE10093884F /* SonargaonSlide3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8A67F2A1EBEDBE10093884F /* SonargaonSlide3.jpg */; };
+		A8A67F341EBEDBE10093884F /* SonargaonSlide4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8A67F2B1EBEDBE10093884F /* SonargaonSlide4.jpg */; };
+		A8A67F351EBEDBE10093884F /* SonargaonSlide5.JPG in Resources */ = {isa = PBXBuildFile; fileRef = A8A67F2C1EBEDBE10093884F /* SonargaonSlide5.JPG */; };
+		A8A67F361EBEDBE10093884F /* SonargaonSlide6.JPG in Resources */ = {isa = PBXBuildFile; fileRef = A8A67F2D1EBEDBE10093884F /* SonargaonSlide6.JPG */; };
+		A8A67F371EBEDBE10093884F /* SonargaonSlide7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8A67F2E1EBEDBE10093884F /* SonargaonSlide7.jpg */; };
+		A8A67F381EBEDBE10093884F /* SonargaonSlide8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8A67F2F1EBEDBE10093884F /* SonargaonSlide8.jpg */; };
+		A8A67F391EBEDBE10093884F /* SonargaonSlide9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8A67F301EBEDBE10093884F /* SonargaonSlide9.jpg */; };
+		A8A67F3B1EBEDD910093884F /* imageSlideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A67F3A1EBEDD910093884F /* imageSlideViewController.swift */; };
+		A8F26B781EB51C61009A658B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F26B771EB51C61009A658B /* AppDelegate.swift */; };
+		A8F26B7A1EB51C61009A658B /* TourMateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F26B791EB51C61009A658B /* TourMateViewController.swift */; };
+		A8F26B7D1EB51C61009A658B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8F26B7B1EB51C61009A658B /* Main.storyboard */; };
+		A8F26B7F1EB51C61009A658B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F26B7E1EB51C61009A658B /* Assets.xcassets */; };
+		A8F26B821EB51C61009A658B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8F26B801EB51C61009A658B /* LaunchScreen.storyboard */; };
+		A8F26B911EB5231D009A658B /* AhsanManjil.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8F26B891EB5231D009A658B /* AhsanManjil.jpg */; };
+		A8F26B921EB5231D009A658B /* bichnakandi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8F26B8A1EB5231D009A658B /* bichnakandi.jpg */; };
+		A8F26B931EB5231D009A658B /* InaniBeach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8F26B8B1EB5231D009A658B /* InaniBeach.jpg */; };
+		A8F26B941EB5231D009A658B /* Jaflong.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8F26B8C1EB5231D009A658B /* Jaflong.jpg */; };
+		A8F26B951EB5231D009A658B /* LaalbaghFort.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8F26B8D1EB5231D009A658B /* LaalbaghFort.jpg */; };
+		A8F26B961EB5231D009A658B /* Nilgiri.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8F26B8E1EB5231D009A658B /* Nilgiri.jpg */; };
+		A8F26B971EB5231D009A658B /* SaintMartin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8F26B8F1EB5231D009A658B /* SaintMartin.jpg */; };
+		A8F26B981EB5231D009A658B /* sonargaon 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8F26B901EB5231D009A658B /* sonargaon 2.jpg */; };
+		A8F26B9A1EB53024009A658B /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F26B991EB53024009A658B /* ImageViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A8474E961EBDF23F006B4001 /* TourModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TourModel.swift; path = ../TourModel.swift; sourceTree = "<group>"; };
+		A8A67F231EBEB0A90093884F /* green.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = green.jpg; sourceTree = "<group>"; };
+		A8A67F251EBEBB1A0093884F /* descriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = descriptionViewController.swift; path = ../descriptionViewController.swift; sourceTree = "<group>"; };
+		A8A67F281EBEDBE10093884F /* SonargaonSlide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SonargaonSlide.jpg; sourceTree = "<group>"; };
+		A8A67F291EBEDBE10093884F /* SonargaonSlide2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SonargaonSlide2.jpg; sourceTree = "<group>"; };
+		A8A67F2A1EBEDBE10093884F /* SonargaonSlide3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SonargaonSlide3.jpg; sourceTree = "<group>"; };
+		A8A67F2B1EBEDBE10093884F /* SonargaonSlide4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SonargaonSlide4.jpg; sourceTree = "<group>"; };
+		A8A67F2C1EBEDBE10093884F /* SonargaonSlide5.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SonargaonSlide5.JPG; sourceTree = "<group>"; };
+		A8A67F2D1EBEDBE10093884F /* SonargaonSlide6.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SonargaonSlide6.JPG; sourceTree = "<group>"; };
+		A8A67F2E1EBEDBE10093884F /* SonargaonSlide7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SonargaonSlide7.jpg; sourceTree = "<group>"; };
+		A8A67F2F1EBEDBE10093884F /* SonargaonSlide8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SonargaonSlide8.jpg; sourceTree = "<group>"; };
+		A8A67F301EBEDBE10093884F /* SonargaonSlide9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SonargaonSlide9.jpg; sourceTree = "<group>"; };
+		A8A67F3A1EBEDD910093884F /* imageSlideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imageSlideViewController.swift; sourceTree = "<group>"; };
+		A8F26B741EB51C60009A658B /* TourMateBD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TourMateBD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F26B771EB51C61009A658B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A8F26B791EB51C61009A658B /* TourMateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourMateViewController.swift; sourceTree = "<group>"; };
+		A8F26B7C1EB51C61009A658B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8F26B7E1EB51C61009A658B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8F26B811EB51C61009A658B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8F26B831EB51C61009A658B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8F26B891EB5231D009A658B /* AhsanManjil.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AhsanManjil.jpg; sourceTree = "<group>"; };
+		A8F26B8A1EB5231D009A658B /* bichnakandi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bichnakandi.jpg; sourceTree = "<group>"; };
+		A8F26B8B1EB5231D009A658B /* InaniBeach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = InaniBeach.jpg; sourceTree = "<group>"; };
+		A8F26B8C1EB5231D009A658B /* Jaflong.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jaflong.jpg; sourceTree = "<group>"; };
+		A8F26B8D1EB5231D009A658B /* LaalbaghFort.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LaalbaghFort.jpg; sourceTree = "<group>"; };
+		A8F26B8E1EB5231D009A658B /* Nilgiri.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Nilgiri.jpg; sourceTree = "<group>"; };
+		A8F26B8F1EB5231D009A658B /* SaintMartin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SaintMartin.jpg; sourceTree = "<group>"; };
+		A8F26B901EB5231D009A658B /* sonargaon 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sonargaon 2.jpg"; sourceTree = "<group>"; };
+		A8F26B991EB53024009A658B /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8F26B711EB51C60009A658B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A88622B21ED37D4500166CFA /* ViewBackGround */ = {
+			isa = PBXGroup;
+			children = (
+				A8A67F231EBEB0A90093884F /* green.jpg */,
+			);
+			name = ViewBackGround;
+			sourceTree = "<group>";
+		};
+		A88622B31ED37D6400166CFA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A8474E961EBDF23F006B4001 /* TourModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A88622B41ED37D7800166CFA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A8F26B791EB51C61009A658B /* TourMateViewController.swift */,
+				A8F26B991EB53024009A658B /* ImageViewController.swift */,
+				A8A67F3A1EBEDD910093884F /* imageSlideViewController.swift */,
+				A8A67F251EBEBB1A0093884F /* descriptionViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A88622B51ED37D8300166CFA /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				A8F26B771EB51C61009A658B /* AppDelegate.swift */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		A8A67F271EBEDBE10093884F /* SonarGaonSlide */ = {
+			isa = PBXGroup;
+			children = (
+				A8A67F281EBEDBE10093884F /* SonargaonSlide.jpg */,
+				A8A67F291EBEDBE10093884F /* SonargaonSlide2.jpg */,
+				A8A67F2A1EBEDBE10093884F /* SonargaonSlide3.jpg */,
+				A8A67F2B1EBEDBE10093884F /* SonargaonSlide4.jpg */,
+				A8A67F2C1EBEDBE10093884F /* SonargaonSlide5.JPG */,
+				A8A67F2D1EBEDBE10093884F /* SonargaonSlide6.JPG */,
+				A8A67F2E1EBEDBE10093884F /* SonargaonSlide7.jpg */,
+				A8A67F2F1EBEDBE10093884F /* SonargaonSlide8.jpg */,
+				A8A67F301EBEDBE10093884F /* SonargaonSlide9.jpg */,
+			);
+			path = SonarGaonSlide;
+			sourceTree = "<group>";
+		};
+		A8DE68A41EBC2E6D0061EE82 /* Place description  Scenerio */ = {
+			isa = PBXGroup;
+			children = (
+				A8F26B891EB5231D009A658B /* AhsanManjil.jpg */,
+				A8F26B8A1EB5231D009A658B /* bichnakandi.jpg */,
+				A8F26B8B1EB5231D009A658B /* InaniBeach.jpg */,
+				A8F26B8C1EB5231D009A658B /* Jaflong.jpg */,
+				A8F26B8D1EB5231D009A658B /* LaalbaghFort.jpg */,
+				A8F26B8E1EB5231D009A658B /* Nilgiri.jpg */,
+				A8F26B8F1EB5231D009A658B /* SaintMartin.jpg */,
+				A8F26B901EB5231D009A658B /* sonargaon 2.jpg */,
+			);
+			name = "Place description  Scenerio";
+			sourceTree = "<group>";
+		};
+		A8F26B6B1EB51C60009A658B = {
+			isa = PBXGroup;
+			children = (
+				A8F26B761EB51C60009A658B /* TourMateBD */,
+				A8F26B751EB51C60009A658B /* Products */,
+				A88622B21ED37D4500166CFA /* ViewBackGround */,
+			);
+			sourceTree = "<group>";
+		};
+		A8F26B751EB51C60009A658B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8F26B741EB51C60009A658B /* TourMateBD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8F26B761EB51C60009A658B /* TourMateBD */ = {
+			isa = PBXGroup;
+			children = (
+				A88622B31ED37D6400166CFA /* Model */,
+				A88622B51ED37D8300166CFA /* Delegate */,
+				A88622B41ED37D7800166CFA /* Controller */,
+				A8F26B7B1EB51C61009A658B /* Main.storyboard */,
+				A8F26B7E1EB51C61009A658B /* Assets.xcassets */,
+				A8A67F271EBEDBE10093884F /* SonarGaonSlide */,
+				A8F26B801EB51C61009A658B /* LaunchScreen.storyboard */,
+				A8F26B831EB51C61009A658B /* Info.plist */,
+				A8DE68A41EBC2E6D0061EE82 /* Place description  Scenerio */,
+			);
+			path = TourMateBD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8F26B731EB51C60009A658B /* TourMateBD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8F26B861EB51C61009A658B /* Build configuration list for PBXNativeTarget "TourMateBD" */;
+			buildPhases = (
+				A8F26B701EB51C60009A658B /* Sources */,
+				A8F26B711EB51C60009A658B /* Frameworks */,
+				A8F26B721EB51C60009A658B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TourMateBD;
+			productName = TourMateBD;
+			productReference = A8F26B741EB51C60009A658B /* TourMateBD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8F26B6C1EB51C60009A658B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Raihan;
+				TargetAttributes = {
+					A8F26B731EB51C60009A658B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A8F26B6F1EB51C60009A658B /* Build configuration list for PBXProject "TourMateBD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8F26B6B1EB51C60009A658B;
+			productRefGroup = A8F26B751EB51C60009A658B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8F26B731EB51C60009A658B /* TourMateBD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8F26B721EB51C60009A658B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F26B961EB5231D009A658B /* Nilgiri.jpg in Resources */,
+				A8F26B911EB5231D009A658B /* AhsanManjil.jpg in Resources */,
+				A8A67F391EBEDBE10093884F /* SonargaonSlide9.jpg in Resources */,
+				A8F26B821EB51C61009A658B /* LaunchScreen.storyboard in Resources */,
+				A8F26B7F1EB51C61009A658B /* Assets.xcassets in Resources */,
+				A8A67F371EBEDBE10093884F /* SonargaonSlide7.jpg in Resources */,
+				A8F26B7D1EB51C61009A658B /* Main.storyboard in Resources */,
+				A8A67F351EBEDBE10093884F /* SonargaonSlide5.JPG in Resources */,
+				A8A67F331EBEDBE10093884F /* SonargaonSlide3.jpg in Resources */,
+				A8A67F311EBEDBE10093884F /* SonargaonSlide.jpg in Resources */,
+				A8F26B941EB5231D009A658B /* Jaflong.jpg in Resources */,
+				A8F26B971EB5231D009A658B /* SaintMartin.jpg in Resources */,
+				A8F26B921EB5231D009A658B /* bichnakandi.jpg in Resources */,
+				A8A67F321EBEDBE10093884F /* SonargaonSlide2.jpg in Resources */,
+				A8F26B951EB5231D009A658B /* LaalbaghFort.jpg in Resources */,
+				A8A67F241EBEB0A90093884F /* green.jpg in Resources */,
+				A8A67F381EBEDBE10093884F /* SonargaonSlide8.jpg in Resources */,
+				A8F26B981EB5231D009A658B /* sonargaon 2.jpg in Resources */,
+				A8F26B931EB5231D009A658B /* InaniBeach.jpg in Resources */,
+				A8A67F341EBEDBE10093884F /* SonargaonSlide4.jpg in Resources */,
+				A8A67F361EBEDBE10093884F /* SonargaonSlide6.JPG in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8F26B701EB51C60009A658B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8A67F3B1EBEDD910093884F /* imageSlideViewController.swift in Sources */,
+				A8F26B7A1EB51C61009A658B /* TourMateViewController.swift in Sources */,
+				A8A67F261EBEBB1A0093884F /* descriptionViewController.swift in Sources */,
+				A8474E971EBDF23F006B4001 /* TourModel.swift in Sources */,
+				A8F26B9A1EB53024009A658B /* ImageViewController.swift in Sources */,
+				A8F26B781EB51C61009A658B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A8F26B7B1EB51C61009A658B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8F26B7C1EB51C61009A658B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A8F26B801EB51C61009A658B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8F26B811EB51C61009A658B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8F26B841EB51C61009A658B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8F26B851EB51C61009A658B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8F26B871EB51C61009A658B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TourMateBD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Raihan.com.TourMateBD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A8F26B881EB51C61009A658B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TourMateBD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Raihan.com.TourMateBD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8F26B6F1EB51C60009A658B /* Build configuration list for PBXProject "TourMateBD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F26B841EB51C61009A658B /* Debug */,
+				A8F26B851EB51C61009A658B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8F26B861EB51C61009A658B /* Build configuration list for PBXNativeTarget "TourMateBD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F26B871EB51C61009A658B /* Debug */,
+				A8F26B881EB51C61009A658B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8F26B6C1EB51C60009A658B /* Project object */;
+}
